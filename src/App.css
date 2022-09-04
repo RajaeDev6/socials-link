@@ -1,0 +1,46 @@
+body{
+  background-image: url('./images/pricing.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.content{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background: transparent;
+}
+
+.profile_name{
+  padding: 4px 5px;
+  border:1px solid black ;
+  border-radius: 25px;
+  text-align: center;
+  font-size: x-small;
+  background: #212121;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.container{
+  width: 80%;
+  max-width:1200px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap:10px ;
+}
+.profile_photo{
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgba(0,0,0,0.7);
+  border-radius: 50%;
+  background-image:url('./images/puppy.jpg') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
