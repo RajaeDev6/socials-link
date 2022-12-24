@@ -1,13 +1,10 @@
 import React from 'react';
 import './button.css';
 
-
-
-export default function Button(prop){
+export default function Button({link, icon, name}){
     return (
         <div>
-
-        <a href={prop.link}><button>{prop.icon}{prop.name}</button></a>
+        <a href={link}><button>{icon}{name}</button></a>
         </div>
 )
 }
