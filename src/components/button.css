@@ -1,23 +1,19 @@
-button{
+a{
     padding: 0.7rem;
     border: 1px solid rgba(0, 0, 0, 0.7);
     border-radius: 25px;
     width: 10rem;
     background: transparent;
     cursor: pointer;
+    text-align:center;
+    text-decoration:none;
     color: #212121;
-}
 
-
-button:hover{
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #fff
 }
-button a{
-    text-decoration: none;
-    color: #212121;
+.buttonhover{
+    background: rgba(0,0,0,.8);
+    color: #fff;
 }
-
 
 .fa{
   margin-right: 5px;

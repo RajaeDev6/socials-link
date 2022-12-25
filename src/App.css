@@ -15,7 +15,7 @@ body{
 }
 
 .profile_name{
-  padding: 4px 5px;
+  padding: 0.4rem 0.2rem;
   border:1px solid black ;
   border-radius: 25px;
   text-align: center;
@@ -32,11 +32,11 @@ body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap:10px ;
+  gap:0.625rem ;
 }
 .profile_photo{
-  width: 100px;
-  height: 100px;
+  width: 9.375rem;
+  height: 9.375rem;
   border: 1px solid rgba(0,0,0,0.7);
   border-radius: 50%;
   background-image:url('./images/puppy.jpg') ;
